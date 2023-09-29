@@ -18,6 +18,7 @@
 		0E9E74862AC36D05007B00A7 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9E74852AC36D05007B00A7 /* GameModels.swift */; };
 		0E9E74892AC39269007B00A7 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9E74882AC39269007B00A7 /* ViewModifiers.swift */; };
 		0E9E748C2AC3959D007B00A7 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9E748B2AC3959D007B00A7 /* GameView.swift */; };
+		0ECC07722AC7807100AA258C /* YourNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECC07712AC7807100AA258C /* YourNameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		0E9E74852AC36D05007B00A7 /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
 		0E9E74882AC39269007B00A7 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		0E9E748B2AC3959D007B00A7 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		0ECC07712AC7807100AA258C /* YourNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourNameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				0E9E74742AC366EA007B00A7 /* AppEntry.swift */,
+				0ECC07712AC7807100AA258C /* YourNameView.swift */,
 				0E9E74762AC366EA007B00A7 /* StartView.swift */,
 				0E9E748A2AC39580007B00A7 /* Game Screen */,
 				0E9E74842AC36CE3007B00A7 /* Models */,
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ECC07722AC7807100AA258C /* YourNameView.swift in Sources */,
 				0E9E74772AC366EA007B00A7 /* StartView.swift in Sources */,
 				0E9E74862AC36D05007B00A7 /* GameModels.swift in Sources */,
 				0E9E74752AC366EA007B00A7 /* AppEntry.swift in Sources */,

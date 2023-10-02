@@ -19,6 +19,8 @@
 		0E9E74892AC39269007B00A7 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9E74882AC39269007B00A7 /* ViewModifiers.swift */; };
 		0E9E748C2AC3959D007B00A7 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9E748B2AC3959D007B00A7 /* GameView.swift */; };
 		0ECC07722AC7807100AA258C /* YourNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECC07712AC7807100AA258C /* YourNameView.swift */; };
+		0EFBD65F2ACB08DC001FFFD3 /* MPConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFBD65E2ACB08DC001FFFD3 /* MPConnectionManager.swift */; };
+		0EFBD6612ACB1ADE001FFFD3 /* MPGameMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFBD6602ACB1ADE001FFFD3 /* MPGameMove.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,9 @@
 		0E9E74882AC39269007B00A7 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		0E9E748B2AC3959D007B00A7 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		0ECC07712AC7807100AA258C /* YourNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourNameView.swift; sourceTree = "<group>"; };
+		0EFBD65C2ACB06F0001FFFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0EFBD65E2ACB08DC001FFFD3 /* MPConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPConnectionManager.swift; sourceTree = "<group>"; };
+		0EFBD6602ACB1ADE001FFFD3 /* MPGameMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPGameMove.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +72,11 @@
 		0E9E74732AC366EA007B00A7 /* XsAndOs */ = {
 			isa = PBXGroup;
 			children = (
+				0EFBD65C2ACB06F0001FFFD3 /* Info.plist */,
 				0E9E74742AC366EA007B00A7 /* AppEntry.swift */,
 				0ECC07712AC7807100AA258C /* YourNameView.swift */,
 				0E9E74762AC366EA007B00A7 /* StartView.swift */,
+				0EFBD65D2ACB080E001FFFD3 /* MultiPeerConnectivityMultiPeerConnectivity */,
 				0E9E748A2AC39580007B00A7 /* Game Screen */,
 				0E9E74842AC36CE3007B00A7 /* Models */,
 				0E9E74872AC39229007B00A7 /* Utilities */,
@@ -113,6 +120,15 @@
 				0E57597F2AC5F8C500D7865D /* SquareView.swift */,
 			);
 			path = "Game Screen";
+			sourceTree = "<group>";
+		};
+		0EFBD65D2ACB080E001FFFD3 /* MultiPeerConnectivityMultiPeerConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				0EFBD65E2ACB08DC001FFFD3 /* MPConnectionManager.swift */,
+				0EFBD6602ACB1ADE001FFFD3 /* MPGameMove.swift */,
+			);
+			path = MultiPeerConnectivityMultiPeerConnectivity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,12 +202,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EFBD6612ACB1ADE001FFFD3 /* MPGameMove.swift in Sources */,
 				0ECC07722AC7807100AA258C /* YourNameView.swift in Sources */,
 				0E9E74772AC366EA007B00A7 /* StartView.swift in Sources */,
 				0E9E74862AC36D05007B00A7 /* GameModels.swift in Sources */,
 				0E9E74752AC366EA007B00A7 /* AppEntry.swift in Sources */,
 				0E57597C2AC5E31700D7865D /* GameService.swift in Sources */,
 				0E9E74892AC39269007B00A7 /* ViewModifiers.swift in Sources */,
+				0EFBD65F2ACB08DC001FFFD3 /* MPConnectionManager.swift in Sources */,
 				0E9E748C2AC3959D007B00A7 /* GameView.swift in Sources */,
 				0E57597E2AC5ECDA00D7865D /* GameSquare.swift in Sources */,
 				0E5759802AC5F8C500D7865D /* SquareView.swift in Sources */,
@@ -325,6 +343,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"XsAndOs/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XsAndOs/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Would like to play Xs and Os";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -355,6 +375,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"XsAndOs/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XsAndOs/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Would like to play Xs and Os";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

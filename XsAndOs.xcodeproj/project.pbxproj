@@ -21,6 +21,7 @@
 		0ECC07722AC7807100AA258C /* YourNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECC07712AC7807100AA258C /* YourNameView.swift */; };
 		0EFBD65F2ACB08DC001FFFD3 /* MPConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFBD65E2ACB08DC001FFFD3 /* MPConnectionManager.swift */; };
 		0EFBD6612ACB1ADE001FFFD3 /* MPGameMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFBD6602ACB1ADE001FFFD3 /* MPGameMove.swift */; };
+		0EFBD6632ACB2D93001FFFD3 /* MPPeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFBD6622ACB2D93001FFFD3 /* MPPeerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		0EFBD65C2ACB06F0001FFFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0EFBD65E2ACB08DC001FFFD3 /* MPConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPConnectionManager.swift; sourceTree = "<group>"; };
 		0EFBD6602ACB1ADE001FFFD3 /* MPGameMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPGameMove.swift; sourceTree = "<group>"; };
+		0EFBD6622ACB2D93001FFFD3 /* MPPeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPPeerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +78,8 @@
 				0E9E74742AC366EA007B00A7 /* AppEntry.swift */,
 				0ECC07712AC7807100AA258C /* YourNameView.swift */,
 				0E9E74762AC366EA007B00A7 /* StartView.swift */,
-				0EFBD65D2ACB080E001FFFD3 /* MultiPeerConnectivityMultiPeerConnectivity */,
 				0E9E748A2AC39580007B00A7 /* Game Screen */,
+				0EFBD65D2ACB080E001FFFD3 /* MultiPeerConnectivityMultiPeerConnectivity */,
 				0E9E74842AC36CE3007B00A7 /* Models */,
 				0E9E74872AC39229007B00A7 /* Utilities */,
 				0E9E74782AC366EC007B00A7 /* Assets.xcassets */,
@@ -127,6 +129,7 @@
 			children = (
 				0EFBD65E2ACB08DC001FFFD3 /* MPConnectionManager.swift */,
 				0EFBD6602ACB1ADE001FFFD3 /* MPGameMove.swift */,
+				0EFBD6622ACB2D93001FFFD3 /* MPPeerView.swift */,
 			);
 			path = MultiPeerConnectivityMultiPeerConnectivity;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				0E9E748C2AC3959D007B00A7 /* GameView.swift in Sources */,
 				0E57597E2AC5ECDA00D7865D /* GameSquare.swift in Sources */,
 				0E5759802AC5F8C500D7865D /* SquareView.swift in Sources */,
+				0EFBD6632ACB2D93001FFFD3 /* MPPeerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
